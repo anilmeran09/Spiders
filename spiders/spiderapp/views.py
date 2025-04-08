@@ -8,5 +8,5 @@ def Home(request):
     return render(request,'index.html')
 
 def get_data(request):
-    return HttpResponse("Hello World.")
+    return HttpResponse("Hello World")
 
